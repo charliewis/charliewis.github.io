@@ -67,7 +67,7 @@
     <article id="post-Node-js" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2023/01/28/Node-js/" class="article-date">
-  <time datetime="2023-01-28T06:49:29.000Z" itemprop="datePublished">2023-01-28</time>
+  <time datetime="2023-01-28T06:49:00.000Z" itemprop="datePublished">2023-01-28</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/01/28/Node-js/">Node.js</a>
+      <a class="article-title" href="/2023/01/28/Node-js/">Install Node.js with nvm</a>
     </h1>
   
 
@@ -86,7 +86,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <ol>
+<li>install nvm – node version install control<br> 1.1 view the newest nvm version<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/nvm-sh/nvm/releases</span><br></pre></td></tr></table></figure><br> 1.2 install nvm<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://raw.githubusercontent.com/creationix/nvm/v0.39.3/install.sh | bash</span><br></pre></td></tr></table></figure><br> 1.3 re-souce<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.profile</span><br></pre></td></tr></table></figure><br> 1.4 check<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm --version</span><br></pre></td></tr></table></figure></li>
+<li>install node + npm<br> 2.1 view the node.js versions<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm ls-remote</span><br></pre></td></tr></table></figure><br> 2.2 install the obejct version nod<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install v18.13.0</span><br></pre></td></tr></table></figure><br> 2.3 use the object version node<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use 18.13.0</span><br></pre></td></tr></table></figure><br> 2.4 set to default version<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm alias default </span><br></pre></td></tr></table></figure><br> 2.5 restart and check<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
+<li>install the newest npm<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g npm@latest</span><br></pre></td></tr></table></figure></li>
+</ol>
+
       
     </div>
     <footer class="article-footer">
@@ -286,7 +291,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="變換版本"><a href="#變換版本" class="headerlink" title="變換版本"></a>變換版本</h2><h3 id="安裝版本切換工具"><a href="#安裝版本切換工具" class="headerlink" title="安裝版本切換工具"></a>安裝版本切換工具</h3><p>sudo npm install -g n</p>
+        <p>** update to install with nvm</p>
+<h2 id="變換版本"><a href="#變換版本" class="headerlink" title="變換版本"></a>變換版本</h2><h3 id="安裝版本切換工具"><a href="#安裝版本切換工具" class="headerlink" title="安裝版本切換工具"></a>安裝版本切換工具</h3><p>sudo npm install -g n</p>
 <h3 id="切換特定版本"><a href="#切換特定版本" class="headerlink" title="切換特定版本"></a>切換特定版本</h3><p>sudo n 11.15.0</p>
 <h3 id="看有哪寫已安裝版本可以切換"><a href="#看有哪寫已安裝版本可以切換" class="headerlink" title="看有哪寫已安裝版本可以切換"></a>看有哪寫已安裝版本可以切換</h3><p>sudo n</p>
 <p>[目前hexo要 sudo n 12.13.0]</p>
@@ -494,7 +500,7 @@
       <ul>
         
           <li>
-            <a href="/2023/01/28/Node-js/">Node.js</a>
+            <a href="/2023/01/28/Node-js/">Install Node.js with nvm</a>
           </li>
         
           <li>
